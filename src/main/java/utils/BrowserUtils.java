@@ -45,6 +45,4 @@ public class BrowserUtils {
         return Driver.getDriver().getTitle();
     }
 
-
-
 }

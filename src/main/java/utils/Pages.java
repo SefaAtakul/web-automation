@@ -1,5 +1,8 @@
 package utils;
 
+import pages.accordion.Collapse_Content_Page;
+import pages.button.With_Icon_Page;
+import pages.checkBoxRadio.Product_Selector_Page;
 import pages.controlGroup.ToolBar_Page;
 import pages.datepicker.DisplayMultipleMonths_Page;
 import pages.datepicker.SelecDateRange_Page;
@@ -27,6 +30,10 @@ import pages.resizable.Synchronus_Resize_Page;
 import pages.resizable.Textarea_Page;
 import pages.selectable.Selectable_DefFunc_Page;
 import pages.selectable.Selectable_Serialize_Page;
+import pages.slider.SnapToIncrements_Page;
+import pages.sortable.DisplayAsGrid_Page;
+import pages.sortable.IncludeExcludeItems_Page;
+import pages.spinner.SpinnerOverflow_Page;
 
 public class Pages {
 
@@ -58,6 +65,13 @@ public class Pages {
     private  SelecDateRange_Page selecDateRangePage;
     private ToolBar_Page toolBarPage;
     private ModalForm_page modalFormPage;
+    private SnapToIncrements_Page snapToIncrementsPage;
+    private SpinnerOverflow_Page spinnerOverflowPage;
+    private DisplayAsGrid_Page displayAsGridPage;
+    private IncludeExcludeItems_Page includeExcludeItemsPage;
+    private Collapse_Content_Page collapseContentPage;
+    private With_Icon_Page withIconPage;
+    private Product_Selector_Page productSelectorPage;
 
 
     public Pages() {
@@ -88,12 +102,18 @@ public class Pages {
         selecDateRangePage = new SelecDateRange_Page();
         toolBarPage = new ToolBar_Page();
         modalFormPage = new ModalForm_page();
+        snapToIncrementsPage = new SnapToIncrements_Page();
+        spinnerOverflowPage = new SpinnerOverflow_Page();
+        displayAsGridPage = new DisplayAsGrid_Page();
+        includeExcludeItemsPage =new IncludeExcludeItems_Page();
+        collapseContentPage = new Collapse_Content_Page();
+        withIconPage = new With_Icon_Page();
+        productSelectorPage = new Product_Selector_Page();
     }
 
     public HomePage getHomePage() {
         return homePage;
     }
-
     public WebAutomationPage getWebAutomationPage() {
         return webAutomationPage;
     }
@@ -140,4 +160,11 @@ public class Pages {
     public SelecDateRange_Page getSelecDateRangePage(){return selecDateRangePage;}
     public ToolBar_Page getToolBarPage(){return toolBarPage;}
     public ModalForm_page getModalFormPage(){return modalFormPage;}
+    public SnapToIncrements_Page getSnapToIncrementsPage(){return snapToIncrementsPage;}
+    public SpinnerOverflow_Page getSpinnerOverflowPage(){return spinnerOverflowPage;}
+    public DisplayAsGrid_Page getDisplayAsGridPage(){return displayAsGridPage;}
+    public IncludeExcludeItems_Page getIncludeExcludeItemsPage(){return includeExcludeItemsPage;}
+    public Collapse_Content_Page getCollapseContentPage(){return collapseContentPage;}
+    public With_Icon_Page getWithIconPage(){return withIconPage;}
+    public Product_Selector_Page getProductSelectorPage(){return productSelectorPage;}
 }

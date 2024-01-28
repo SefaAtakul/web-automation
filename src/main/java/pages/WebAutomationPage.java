@@ -82,6 +82,46 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Modal Form")
     private WebElement modalFormLink;
 
+    @FindBy(linkText = "Slider")
+    private WebElement sliderLink;
+
+    @FindBy(linkText = "Snap to increments")
+    private WebElement snapToIncrementLink;
+
+    @FindBy(linkText = "Spinner")
+    private WebElement spinnerLink;
+
+    @FindBy(linkText = "Spinner Overflow")
+    private WebElement spinnerOverflowLink;
+
+    @FindBy(linkText = "Sortable")
+    private WebElement sortableLink;
+
+    @FindBy(linkText = "Display as Grid")
+    private WebElement displayAsGridLink;
+
+    @FindBy(linkText = "Include / exclude items")
+    private WebElement includeExcludeItemsLink;
+
+
+    @FindBy(linkText = "Accordion")
+    private WebElement accordionLink;
+
+    @FindBy(linkText = "Collapse Content")
+    private WebElement collapseContentLink;
+
+    @FindBy(linkText = "Button")
+    private WebElement buttonLink;
+
+    @FindBy(linkText = "With Icon")
+    private WebElement withIconLink;
+
+    @FindBy(linkText = "Checkbox Radio")
+    private WebElement checkBoxRadioLink;
+
+    @FindBy(linkText = "Product Selector")
+    private WebElement productSelectorLink;
+
 
     public void clickOnDraggableLink() {
         draggableLink.click();
@@ -128,6 +168,7 @@ public class WebAutomationPage extends BasePage {
     public void clickOnAutoCompleteLink() {autoCompleteLink.click();}
 
     public void clickOnMultipleAndRemoteLink() {multipleAndRemoteLink.click();}
+
     public void clickOnAccentFoldingLink(){accentFoldingKink.click();}
 
     public void clickOnConstrainMovementLink() {constrainMovementLink.click();}
@@ -143,6 +184,7 @@ public class WebAutomationPage extends BasePage {
     public void clickOnMenuLink(){menuLink.click();}
 
     public void clickOnIconsLink(){iconsLink.click();}
+
     public void clickOnProgressBarLink(){progressBarLink.click();}
 
     public void clickOnDownloadDialogLink(){downloadDialogLink.click();}
@@ -160,4 +202,30 @@ public class WebAutomationPage extends BasePage {
     public void clickOnDialogLink(){dialogLink.click();}
 
     public void clickOnModalFormLink(){modalFormLink.click();}
+
+    public void clickOnSliderLink(){sliderLink.click();}
+
+    public void clickOnSnapToIncrementLink(){snapToIncrementLink.click();}
+
+    public void clickOnSpinnerLink(){spinnerLink.click();}
+
+    public void  clickOnSpinnerOverflowLink(){spinnerOverflowLink.click();}
+
+    public void clickOnSortableLink(){sortableLink.click();}
+
+    public void clickOnDisplayAsGridLink(){displayAsGridLink.click();}
+
+    public void clickOnIcludeExcludeItemsLink(){includeExcludeItemsLink.click();}
+
+    public void clickOnAccordionLink(){accordionLink.click();}
+
+    public void clickOnCollapseContentLink(){collapseContentLink.click();}
+
+    public void clickOnButtonLink(){buttonLink.click();}
+
+    public void clickOnWithIconLink(){withIconLink.click();}
+
+    public void clickOnCheckBoxRadioLink(){checkBoxRadioLink.click();}
+
+    public void clickOnProductSelector(){productSelectorLink.click();}
 }
